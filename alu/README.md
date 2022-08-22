@@ -3,8 +3,7 @@ This folder contains the vhdl code for a generic width alu, along with a testben
 NOTE: a top_level.vhd is included to test on the DE10-LITE. However the decoder7seg vhd files need to be added to the project.
 
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------
-  |  SEL   |                    OUTPUT                     |                            OVERFLOW (assume all operations are unsigned)                         |
+    SEL                       OUTPUT                                                OVERFLOW (assume all operations are unsigned)                         
     0000      input1 + input2                                  ‘1’ if the sum is larger than the maximum number that can be written to output, ‘0’ otherwise   
     0001      input1 - input2                                  '0'                                                                                              
     0010      input1 * input2                                  ‘1’ if result is larger than the maximum number that can be written to output, ‘0’ otherwise     
@@ -21,6 +20,5 @@ NOTE: a top_level.vhd is included to test on the DE10-LITE. However the decoder7
     1101      NC                                               '0'                                                                                              
     1110      NC                                               '0'                                                                                              
     1111      NC                                               '0'                                                                                              
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * NOTE SEL = "1010": In the case of an odd width, use 1 extra bit from the high half. For example, 0101000 should become 0000101. *
