@@ -5,7 +5,6 @@ NOTE: a top_level.vhd is included to test on the DE10-LITE. However the decoder7
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------
   |  SEL   |                    OUTPUT                     |                            OVERFLOW (assume all operations are unsigned)                         |
-  |________|__________________________________________________________________________________________________________________________________________________|
     0000      input1 + input2                                  ‘1’ if the sum is larger than the maximum number that can be written to output, ‘0’ otherwise   
     0001      input1 - input2                                  '0'                                                                                              
     0010      input1 * input2                                  ‘1’ if result is larger than the maximum number that can be written to output, ‘0’ otherwise     
