@@ -10,7 +10,7 @@ We chain the carry output of one fa to the carry in of the next to propagate the
             -------------               -------------               -------------               -------------         
             |        x  |-------- x(3)  |         x |-------- x(2)  |        x  |-------- x(1)  |        x  |-------- x(0)
             |        y  |-------- y(3)  |         y |-------- y(2)  |        y  |-------- y(1)  |        y  |-------- y(0)
-            | cout  cin |               | cout  cin |               | cout  cin |               | cout  cin |-------- carry_in
+            | cout  cin |_______________| cout  cin |_______________| cout  cin |_______________| cout  cin |-------- carry_in
             |    s      |               |    s      |               |    s      |               |    s      |
             -------------               -------------               -------------               -------------
                                                                                                        
