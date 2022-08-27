@@ -1,4 +1,4 @@
-# Ripple-Carry Adder & Hierarchical CLA
+# Ripple-Carry Adder & Hierarchical Carry-Look-Ahead Adder
 
 ## Ripple-Carry Adder (RC)
 
@@ -15,3 +15,9 @@ We chain the carry output of one fa to the carry in of the next to propagate the
       |     -------------               -------------               -------------               -------------
       |          |                           |                           |                           |  
     carry_out   s(3)                        s(2)                        s(1)                        s(0)
+
+
+
+## Hierarchical Carry-Look-Ahead Adder (CLA)
+
+The Hierarchical CLA is an adder that minimizes the delay of the carry out. With the RC adder, we must wait for all the carrys to be calculated, however with the CLA adder we can write our carries as an equation that is completely dependent on x,y and cin (not dependent on the other carries).
