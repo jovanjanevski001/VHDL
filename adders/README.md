@@ -7,6 +7,7 @@ We chain the carry output of one fa to the carry in of the next to propagate the
 
       Example: x,y are 4-bit inputs
       
+                 FA3                         FA2                         FA1                         FA0
             -------------               -------------               -------------               -------------         
             |        x  |-------- x(3)  |         x |-------- x(2)  |        x  |-------- x(1)  |        x  |-------- x(0)
             |        y  |-------- y(3)  |         y |-------- y(2)  |        y  |-------- y(1)  |        y  |-------- y(0)
