@@ -1,3 +1,4 @@
+# Generic Width ALU
 This folder contains the vhdl code for a generic width alu, along with a testbench to simulate functionality of the opcodes
 
 NOTE: a top_level.vhd is included to test on the DE10-LITE. However the decoder7seg vhd files need to be added to the project.
