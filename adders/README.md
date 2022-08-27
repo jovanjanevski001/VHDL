@@ -14,4 +14,4 @@ We chain the carry output of one fa to the carry in of the next to propagate the
     |       |    s      |               |    s      |               |    s      |               |    s      |
     |       -------------               -------------               -------------               -------------
     |            |                           |                           |                           |  
-carry_out       s(3)                        s(2)                        s(1)                        s(0)
+      carry_out s(3)                        s(2)                        s(1)                        s(0)
