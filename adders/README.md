@@ -1,1 +1,1 @@
-# Ripple-Carry Adder & Hierachal CLA
+# Ripple-Carry Adder & Hierarchical CLA
