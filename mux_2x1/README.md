@@ -1,3 +1,5 @@
+# 2x1 Multiplexer
+
 This folder contains the source code and testbench for a 2x1 multiplexer. 
 
 NOTE: This 2x1 MUX will be used to structurally create larger MUXES in the future.
