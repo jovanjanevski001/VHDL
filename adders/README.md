@@ -5,7 +5,7 @@
 The RC adder utilizes a series of 1-bit full adders (fa) to perforom addition with carrys. 
 We chain the carry output of one fa to the carry in of the next to propagate the carry to the following bits.
 
-      Example:
+      Example: x,y are 4-bit inputs
       
             -------------               -------------               -------------               -------------         
             |        x  |-------- x(3)  |         x |-------- x(2)  |        x  |-------- x(1)  |        x  |-------- x(0)
