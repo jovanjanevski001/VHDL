@@ -1,6 +1,6 @@
 # Finite State Machines (FSMs)
 
-An FSM transitions between states in response to inputs of the system. To model this level of abstraction in VHDL, FSM_1P and FSM_2P will be introduced.
+An FSM transitions between states in response to inputs passed to the system. To model this level of abstraction in VHDL, FSM_1P and FSM_2P will be introduced.
 
 ## FSM 1 Process Model
 
