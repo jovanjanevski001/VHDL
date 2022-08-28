@@ -16,3 +16,4 @@ The combinatorial logic process will only deal with combinatorial logic, such as
 ## FSM Example
 
 Below is a screenshot of the FSM that will be modelled in VHDL.
+![Screenshot](FSM.png)
