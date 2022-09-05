@@ -14,7 +14,7 @@ The binary sequence for the counter will be:
       0101    1001
       0100    1000
 
-The counter will be designed using a 2-process model FSM. Each output will be represented as a state in the FSM. 
+The counter will be designed using a 2-process model FSM. Each output will be represented as a state, so our FSM will have 2**4 states. 
 The following screenshot will depicts the states and their respective transitions:
 
 ![Screenshot](gray_counter.png)
