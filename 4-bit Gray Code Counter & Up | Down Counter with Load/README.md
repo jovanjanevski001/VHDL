@@ -15,3 +15,4 @@ The binary sequence for the counter will be:
       0100    1000
 
 The counter will be designed using a 2-process model FSM.
+![Screenshot](gray_counter.png)
