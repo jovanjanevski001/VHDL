@@ -13,3 +13,5 @@ The binary sequence for the counter will be:
       0111    1011
       0101    1001
       0100    1000
+
+The counter will be designed using the 2-process model FSM.
