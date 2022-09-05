@@ -23,11 +23,10 @@ The following screenshot depicts the states and their respective transitions:
 
 # 4-Bit Up/Down Counter with Load
 
-Design a 4- bit counter that counts upwards when an active-low input "up_n" ia asserted and count down otherwise.
+Design a 4- bit counter that counts upwards when an active-low input "up_n" ia asserted and count down otherwise. The 2-process model will be used to design the counter.
 
 * The counter will count from 0 - 15 and wrap back to 0 when exceeding 15. Similiarly, when counting down the count should warp to 15 once 0 is past.
 
 * The counter will be able to load in an input value (in this case from the switches on the DE10-LITE) if active-low input "load_n" is asserted. The count will resume from the newly loaded value. Load_n takes priority over up_n.
 
 * On reset, the count will start at 0.
-* Both load_n and up_n are synchronous.
