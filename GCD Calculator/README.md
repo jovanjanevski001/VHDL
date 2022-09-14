@@ -1,1 +1,1 @@
-* Greatest Common Denominator (GCD) Calculator
+# Greatest Common Denominator (GCD) Calculator
