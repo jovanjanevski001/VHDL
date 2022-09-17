@@ -1,0 +1,33 @@
+// inputs: go, x, y
+// outputs: output, done
+
+// reset the values 
+output = 0;
+done = 0;
+
+while(1)
+{	
+	// wait for go to be asserted to start the circuit
+	while (go == 0);
+	done = 0;
+	
+	// store inputs in registers
+	regX = x;
+	regY = y;
+	
+	// main GCD algorithm
+	while (regX != regY)
+	{
+		if (regX < regY)
+			regY = regY - regX;
+		else
+			regX = regX - regY;
+	}
+	
+	// assign the output and assert done
+	output = regX;
+	done = 1;
+	
+	// make sure go is cleared before restarting the circuit
+	while (go == 1);
+}
