@@ -18,4 +18,4 @@ Below is a pictorial representation of the FSMD developed in VHDL.
 ## FSM + Datapath
 The FSM shows the control flow logic, while the datapath shows how each component is connected.
 
-![Screenshot](gcd_fsm.png)
+![Screenshot](gcd_fsm.png) ![Screenshot](gcd_fsm_d.png)
