@@ -15,4 +15,4 @@ Below is a pictorial representation of the FSMD developed in VHDL.
 ![Screenshot](gcd_fsmd.png)
 
 
-## FSM_D
+## FSM + Datapath
