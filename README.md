@@ -1,1 +1,1 @@
-This repo contains HDL code written in VHDL
+This repository contains VHDL code written for commonly used entities and custom projects 
