@@ -10,4 +10,9 @@ The GCD calculator was designed and synthesized using 3 different architectures:
 Each architecture was tested using a testbench and simulations ran as expected. The RTL viewer of the synthesized design matches the schematics.
 
 ## FSMD 
+Below is a pictorial representation of the FSMD developed in VHDL.
+
 ![Screenshot](gcd_fsmd.png)
+
+
+## FSM_D
