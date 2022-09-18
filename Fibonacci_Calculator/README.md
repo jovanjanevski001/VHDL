@@ -1,7 +1,7 @@
 # Fibonacci Calculator
-*** Before discussing the design, refer to gcd.txt for the pseudocode of the algorithm. ***
+*** Before discussing the design, refer to fibonacci.txt for the pseudocode of the algorithm. ***
 
-The GCD calculator was designed and synthesized using 3 different architectures:
+The Fibonacci calculator was designed and synthesized using 3 different architectures:
 
 * FSMD - 1-process model Finite State Machine with Datapath operations included in the FSM.
 * FSM_D - An FSM (2-process model) that will control a separate Datapath (structural architecture) entity via control signals.
