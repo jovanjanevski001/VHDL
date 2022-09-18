@@ -21,3 +21,6 @@ The FSM shows the control flow logic, while the controller + datapath shows how 
 
 ![Screenshot](gcd_fsm.png) 
 ![Screenshot](gcd_fsm_d.png)
+
+Below is the FSM_D2 blockdiagram between the controller and datapath
+![Screenshot](gcd_fsm_d2.png)
