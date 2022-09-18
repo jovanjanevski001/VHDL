@@ -12,3 +12,7 @@ Each architecture was tested using a testbench and simulations ran as expected. 
 ## FSMD
 
 ![Screenshot](fibonacci_fsmd.png)
+
+## FSM_D
+
+![Screenshot](fibonacci_fsm.png)
