@@ -1,0 +1,35 @@
+Input: n (specifies the Fibonacci number to be calculated)
+Output: result (the nth Fibonacci number)
+
+// reset values (add any others that you might need)
+result = 0;
+done = 0;
+
+while(1) {
+
+  // wait for go to start circuit
+  while (go == 0);
+  done = 0;
+
+  // store input in register
+  regN = N;
+
+  // do the Fib calculation
+  i = 3;
+  x = 1;
+  y = 1;
+  while (i <= regN)
+  {
+    temp = x+y;
+    x = y;
+    y = temp;
+    i ++;
+  }
+ 
+  // output result and assert done
+  result = y;
+  done = 1;
+
+  // wait for go to clear so circuit doesn't constantly repeat
+  while (go == 1);
+}
