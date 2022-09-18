@@ -8,3 +8,7 @@ The Fibonacci calculator was designed and synthesized using 3 different architec
 * FSMD2 - 2-process model FSM with datapath operations included in the FSM.
 
 Each architecture was tested using a testbench and simulations ran as expected. The RTL viewer of the synthesized design matches the schematics.
+
+## FSMD
+
+![Screenshot](fibonacci_fsmd.png)
